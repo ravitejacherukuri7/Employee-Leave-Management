@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+       
+        "target": "ES6" ,
+        "module": "NodeNext" ,
+        "rootDir": "./" ,
+        "moduleResolution": "NodeNext",
+        "baseUrl": "./" ,
+        "paths": {
+            "@typ/*": ["./types/*"]
+        },
+        "sourceMap": true, 
+        "esModuleInterop": true, 
+        "preserveSymlinks": true,                       
+        "forceConsistentCasingInFileNames": true ,
+
+        
+        "strict": true ,
+        "noImplicitAny": true ,                
+        "skipLibCheck": true,
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules"]
+}
